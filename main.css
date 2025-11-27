@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f7f7f7;
+}
+
+.left a,
+.right a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.search {
+    display: flex;
+    gap: 5px;
+}
+
+.search input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search button {
+    padding: 8px 15px;
+    border: none;
+    background: #c5c7ca;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.container {
+    width: 1440px;
+}
+
+.banner {
+    width: 100%;
+    height: 260px;
+    background: linear-gradient(90deg, #e3f6ff, #ffe7d9);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #333;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #00aa55;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.section-title {
+    margin: 30px 20px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #00aa55;
+    font-weight: bold;
+}
+
+.buy-btn {
+    margin-top: 10px;
+    padding: 10px 18px;
+    background: #4a4aee;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.promo-section {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.promo-card {
+    flex: 1;
+    min-width: 260px;
+    padding: 20px;
+    border-radius: 14px;
+    color: #fff;
+}
+
+.promo-card.green {
+    background: #32c671;
+}
+
+.promo-card.orange {
+    background: #ff9f45;
+}
+
+.promo-card h3 {
+    margin: 0 0 10px;
+}
+
+.promo-card p {
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #e7ffe6, #e8faff);
+    padding: 40px;
+}
+
+.banner-text h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+.banner-img {
+    width: 280px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #00aa55;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.section-title {
+    font-size: 24px;
+    margin: 30px 20px 10px;
+}
+
+
+.brands {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.brand {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.products {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #00aa55;
+    font-weight: bold;
+}
+
+.buy-btn {
+    margin-top: 10px;
+    padding: 10px 18px;
+    background: #4a4aee;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.features {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1;
+    min-width: 160px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.subscribe {
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.subscribe-box input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.sub-btn {
+    padding: 10px 25px;
+    background: #00aa55;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.telllefon {
+    width: 350px;
+}
+
+.tellllefon {
+    width: 150px;
+}
